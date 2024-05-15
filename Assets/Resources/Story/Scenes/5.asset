@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2eea31199646a39e316170fe7204f, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Elric\u2026 I wanted to tell you something that\u2019s been on my mind
+      for a while."
+    speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 2
+      aType: 1
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: 1011, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: " I haven\u2019t told anyone because I am afraid that I\u2019ll be judged. "
+    speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 2
+      aType: 0
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 0
+      aType: 0
+      coords: {x: 1011, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "But, I feel close to you. I know in my heart that you won\u2019t judge
+      me. "
+    speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Hana, you can tell me anything. Let out what you need to say! '
+    speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 2
+      aType: 0
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 2
+      aType: 0
+      coords: {x: 1011, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "I don\u2019t think I\u2019m a girl. I think I\u2019m a boy trapped in
+      a woman\u2019s body. "
+    speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Yes, that\u2019s what I am. I don\u2019t want to be Hana anymore. I want
+      to be called Javier."
+    speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "Hi Javier, nice to meet you. I\u2019m your best friend Elric."
+    speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 2
+      aType: 0
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 0
+      aType: 0
+      coords: {x: 1011, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  bg: {fileID: 21300000, guid: aa04f7ac0c1624297a160b9bb327f14a, type: 3}
+  nextScene: {fileID: 0}
+  animC: {fileID: 0}

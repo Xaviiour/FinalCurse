@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2eea31199646a39e316170fe7204f, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hana was a poor child, who came from a poor family.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 1
+      aType: 1
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: 'To Hana, life was agony. '
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: Living in poverty, they felt as if there was no hope.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: Being born female, they were miserable with themselves.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: Everything felt wrong.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: Insecurity haunted them daily.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: This all changed once they were accepted into the most elite school.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 0
+      aType: 0
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: 'It was a miracle! '
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: 'This child who thought poverty would limit their possibilities, '
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  - text: could now enter a whole new world of opportunity.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bb4cbe5db100b48499ae6e87f55c5b63, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: 0, y: 0}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 67025a8c84a27492ab574b9240f3ac1a, type: 3}
+  bg: {fileID: 21300000, guid: b67aa7f7759144274aebbfb87211591f, type: 3}
+  nextScene: {fileID: 11400000, guid: ba822e5465eca4d86a2973b107e293fe, type: 2}
+  animC: {fileID: 0}

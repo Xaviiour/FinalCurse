@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2e1b028da5d4f2fbf8ee2cad723c56, type: 3}
+  m_Name: Elric
+  m_EditorClassIdentifier: 
+  speakerName: Elric
+  textColour: {r: 0.47058824, g: 0.31764707, b: 0.6627451, a: 1}
+  sprites:
+  - {fileID: 1082024958, guid: 2dbffbeb8b5574f7cbbc1c249dea35f0, type: 3}
+  - {fileID: 593637811, guid: ea073c05e237d44fd9a438714ce0fb35, type: 3}
+  - {fileID: 1957598126, guid: 54cef0aaf33e149f9868498b0705ffec, type: 3}
+  - {fileID: 1581388371, guid: d78c6748cc798438c8b1a7019452864c, type: 3}
+  - {fileID: 65434945, guid: d78a2fde5fb564958a942006d5567f73, type: 3}
+  prefab: {fileID: 8419160804356205491, guid: 2d614f17701884ef29fdf97fba711c3a, type: 3}
+  anim: {fileID: 0}

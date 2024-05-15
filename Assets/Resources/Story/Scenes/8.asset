@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2eea31199646a39e316170fe7204f, type: 3}
+  m_Name: 8
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The trio of friends were enjoying life,
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6536042987d76451aa75e5dcabe572dc, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: 1011, y: 152}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -100, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "free from society\u2019s harsh judgements within the safety of each other."
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Little did they know '
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: King Everard had begun to set his evil plan in motion.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6536042987d76451aa75e5dcabe572dc, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: 0, y: 0}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54f2b1f8c30c347ca9335a7e46037014, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: 0, y: 0}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: 0, y: 0}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  bg: {fileID: 21300000, guid: 25053971c65ef4618b90b9bc4c87c353, type: 3}
+  nextScene: {fileID: 0}
+  animC: {fileID: 9100000, guid: a4279251fd733463bab4664ebba68f0e, type: 2}

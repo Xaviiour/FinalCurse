@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2eea31199646a39e316170fe7204f, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Welcome to the tutorial!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: To move, use "A" and "D" or use the left and right arrow keys!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6072f4a434b3646a5bbb5b13a6d692a9, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -625, y: -13}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 1d47069aa67c84c4a916cce880feeb4b, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -145, y: -13}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: caa7649a23e9c4e20a53d76b8f4c6eb4, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -630, y: 0}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: a4837d1715a044c7b8eb30fcd9ded7a7, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -150, y: 13}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: bab463fb9171541ffb8f9c8a5b71bd6f, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -150, y: 290}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 20a8cb6ba6cd54f48b1fb76d5b1d68f9, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -625, y: 290}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 20ad9dee63e124e8686cb7ac22553642, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -630, y: 313}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 17313d2adc22f4db988079d3782d6d09, type: 2}
+      spriteIndex: 0
+      aType: 1
+      coords: {x: -145, y: 313}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: To interact with objects, use "E"!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6072f4a434b3646a5bbb5b13a6d692a9, type: 2}
+      spriteIndex: 0
+      aType: 2
+      coords: {x: -345, y: 30}
+      mSpeed: 2
+    - speaker: {fileID: 11400000, guid: 1d47069aa67c84c4a916cce880feeb4b, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -145, y: -13}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: caa7649a23e9c4e20a53d76b8f4c6eb4, type: 2}
+      spriteIndex: 1
+      aType: 2
+      coords: {x: -350, y: 45}
+      mSpeed: 2
+    - speaker: {fileID: 11400000, guid: a4837d1715a044c7b8eb30fcd9ded7a7, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -150, y: 13}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: bab463fb9171541ffb8f9c8a5b71bd6f, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -150, y: 290}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 20a8cb6ba6cd54f48b1fb76d5b1d68f9, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -625, y: 290}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 20ad9dee63e124e8686cb7ac22553642, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -630, y: 313}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 17313d2adc22f4db988079d3782d6d09, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -145, y: 313}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: To attack, use the left click button on the mouse, or use "space"!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6072f4a434b3646a5bbb5b13a6d692a9, type: 2}
+      spriteIndex: 0
+      aType: 0
+      coords: {x: -345, y: 30}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: caa7649a23e9c4e20a53d76b8f4c6eb4, type: 2}
+      spriteIndex: 2
+      aType: 0
+      coords: {x: -350, y: 45}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 17313d2adc22f4db988079d3782d6d09, type: 2}
+      spriteIndex: 1
+      aType: 1
+      coords: {x: -55, y: 45}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: To pause, either use "esc" or press the pause button on the top right corner!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6072f4a434b3646a5bbb5b13a6d692a9, type: 2}
+      spriteIndex: 0
+      aType: 0
+      coords: {x: -345, y: 30}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: caa7649a23e9c4e20a53d76b8f4c6eb4, type: 2}
+      spriteIndex: 4
+      aType: 0
+      coords: {x: -350, y: 45}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: a4837d1715a044c7b8eb30fcd9ded7a7, type: 2}
+      spriteIndex: 2
+      aType: 1
+      coords: {x: -30, y: 360}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 17313d2adc22f4db988079d3782d6d09, type: 2}
+      spriteIndex: 1
+      aType: 3
+      coords: {x: -30, y: 360}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Now go on grasshopper, you're ready to play!
+    speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6072f4a434b3646a5bbb5b13a6d692a9, type: 2}
+      spriteIndex: 0
+      aType: 3
+      coords: {x: -345, y: 30}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: caa7649a23e9c4e20a53d76b8f4c6eb4, type: 2}
+      spriteIndex: 4
+      aType: 3
+      coords: {x: -350, y: 45}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: a4837d1715a044c7b8eb30fcd9ded7a7, type: 2}
+      spriteIndex: 2
+      aType: 3
+      coords: {x: -30, y: 360}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  bg: {fileID: 21300000, guid: 92215000f7f254588b2acc7283f1939c, type: 3}
+  nextScene: {fileID: 0}
+  animC: {fileID: 0}

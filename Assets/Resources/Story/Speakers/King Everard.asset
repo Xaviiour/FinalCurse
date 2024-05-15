@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2e1b028da5d4f2fbf8ee2cad723c56, type: 3}
+  m_Name: King Everard
+  m_EditorClassIdentifier: 
+  speakerName: King Everard
+  textColour: {r: 0.89411765, g: 0.8039216, b: 0.019607844, a: 1}
+  sprites:
+  - {fileID: 426060773, guid: 0c6b53a94baf8434e8a8f16f539d0a34, type: 3}
+  - {fileID: -957207505, guid: 0d9c2337f03d04eb28ebddc9a264508a, type: 3}
+  - {fileID: -1011927529, guid: 4faab605549334f949c8a596319f14e4, type: 3}
+  - {fileID: -911146654, guid: 116f5a05515ba4ad7a524dff52b94411, type: 3}
+  prefab: {fileID: 3623633256238128200, guid: 2efada10a299d4dcaa2b4fe76857db21, type: 3}
+  anim: {fileID: 0}

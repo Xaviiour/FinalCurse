@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2eea31199646a39e316170fe7204f, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Javier was devastated.
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6536042987d76451aa75e5dcabe572dc, type: 2}
+      spriteIndex: 4
+      aType: 1
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+      spriteIndex: 1
+      aType: 1
+      coords: {x: -100, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'He realized then that he had truly fallen in love with Elric. '
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Together, the peasant boy and the rebellious jester began planning their
+      mission
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' to free the prince and convince the king to accept their love.'
+    speaker: {fileID: 11400000, guid: de9f53db524b04f18b62b23d7d70162c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 6536042987d76451aa75e5dcabe572dc, type: 2}
+      spriteIndex: 4
+      aType: 3
+      coords: {x: -1100, y: 261}
+      mSpeed: 0
+    - speaker: {fileID: 11400000, guid: 875efa8d9583940c89f0a4d0f8c7fd05, type: 2}
+      spriteIndex: 1
+      aType: 3
+      coords: {x: -100, y: 152}
+      mSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  bg: {fileID: 0}
+  nextScene: {fileID: 0}
+  animC: {fileID: 0}
